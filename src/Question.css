@@ -1,0 +1,39 @@
+.btns {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1.15385;
+  outline: none;
+  padding: 8px .8em;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btns:hover,
+.btns:focus {
+  background-color: #07c;
+}
+
+.btns:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.btns:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.btns:disabled {
+  background-color: #0b3255;
+}
+
+.buttons {
+  float: left;
+  margin-left: 40px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
